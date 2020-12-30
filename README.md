@@ -1,1 +1,1 @@
-A simple image slider.
+A simple image slider. [Preview here!](https://savwiley.github.io/ImageSlider/)
