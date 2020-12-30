@@ -32,11 +32,13 @@ const prevBtn = document.createElement("input");
             picFrameInner.style.background = `url(${imageFolder + images[i]}) center/cover`;
             picFrame.style.background = `url(${imageFolder + images[0]}) center/cover`;
             picFrame.appendChild(picFrameInner);
+            dotActive();
         } else {
             i--
             picFrameInner.style.background = `url(${imageFolder + images[i]}) center/cover`;
             picFrame.style.background = `url(${imageFolder + images[i + 1]}) center/cover`;
             picFrame.appendChild(picFrameInner);
+            dotActive();
         }
         clearInterval(rotate);
         rotate = setInterval(next, 5000);
